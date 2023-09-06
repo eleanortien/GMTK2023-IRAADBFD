@@ -1,0 +1,208 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "GoodEnd2"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Sometime at Night*"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "[speed=5]That date... was [shake]HORRIBLE![/shake]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "I can't believe he would mistreat me like that... and there's so many questionable aspects to him as well."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "Someone like him should never be allowed to breathe the same air as me."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/bg/Bedroom_Night_Dark.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Zzzzzzzz....."
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Mikayla? Is that you?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/Ending BGs/muzan murder.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "......"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What are you- [color=red][shake]AH![/shake][/color]"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://music/glass-of-wine-143532.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh, that's not exactly the ending I wanted...."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But at least I finally got rid of the guy. Early retirement! Thank you. [b]:)[/b]"
+		},
+		{
+			"background": "res://assets/Gama JUma/ending 2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"change_scene": "res://scenes/Start.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688872540.json",
+		"name": "GoodEnd2"
+	}
+}

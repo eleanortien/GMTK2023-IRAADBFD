@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/doorbell-shortened-100308.mp3-0fe25be364384f68cb1bd7f4085a1db1.mp3str"
+
+[deps]
+
+source_file="res://assets/sfx/doorbell-shortened-100308.mp3"
+dest_files=[ "res://.import/doorbell-shortened-100308.mp3-0fe25be364384f68cb1bd7f4085a1db1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,193 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Default"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After that second date, [color=red]MC[/color] never saw Mikayla again."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Desperate, he searched for her before giving a last ditch proposal."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mikayla, will you-"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "I think we should stop seeing each other. "
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]WHAT, WHY? WHAT HAVE I DONE WRONG??[/wave]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "Honestly, I thought you would have taken the hint but..."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "You're too ...[i]weird[/i] for me, sorry."
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=red][wave]NOOOOOOOOOOOOOOOOO![/wave][/color]"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://music/glass-of-wine-143532.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/Ending BGs/Good_ending.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": true
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And so, [color=red]MC[/color] was so traumatised by the rejection, he became scared of women."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now he lives as a shut-in, constantly crying over what could have been."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Great job!"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't have to deal with his shenanigans anymore. Thanks for the help! [b]:)[/b] "
+		},
+		{
+			"background": "res://assets/Gama JUma/ending 3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"change_scene": "res://scenes/Start.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688871851.json",
+		"name": "GoodEnd1"
+	}
+}

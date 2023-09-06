@@ -1,0 +1,689 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Intro"
+		},
+		{
+			"definition": "1688827099-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688852193-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "Egg salad"
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'm done. I'm fully done with this guy"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "He is the most annoying duck in the universe and the [wave]worst simp![/wave]\nHe won't shut up about [i]Mikayla[/i] and her shiny feathers."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm done being his dialogue box."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Wanna help me ruin this guy's life? [shake rate=10 level=10]Please!?[/shake]"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey hey! You there! You seem like a [wave]mischievious fellow[/wave]."
+		},
+		{
+			"choice": "Yeah!!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Naw..",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No? You won't help out a poor suffering dialogue box? You're so mean."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And so, the two ducks went on a glorious date. That you could have had a blast ruining. "
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quirky humor, chaos, and scuff... there's so much you could have missed. But I guess now you'll never know what could have been."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Have fun in this black void! This is a GAME OVER."
+		},
+		{
+			"change_scene": "res://scenes/GameOver.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Great. I'll warn you about what this guy is going to say [b]before he says it[/b], and [b]you will change some of those [color=yellow]words[/color][/b] to twist his intentions. "
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He won't know what hit him. [b]>:)[/b]"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh wait! He's awake. Get Ready!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://music/glass-of-wine-143532.mp3",
+			"volume": -0.3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "DateStart!"
+		},
+		{
+			"background": "res://assets/bg/Bedroom_Day.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "...."
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Day"
+				],
+				"method_name": "incoming",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "\nNow's your chance! [shake]Twist his words![/shake]"
+		},
+		{
+			"choice": "Ugly",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Oh look at this [color=blue]ugly[/color] day!"
+		},
+		{
+			"choice": "Amazing",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Oh look at this [color=blue]amazing[/color] day!"
+		},
+		{
+			"choice": "Prodigious",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh look at this [color=blue]prodigious[/color] day!"
+		},
+		{
+			"choice": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh look at this [color=blue]Pneumonoultramicroscopicsilicovolcanoconiosis[/color] day!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My second date with [i]Mikayla[/i] is today and it's gonna be as good as the first one!!"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I wonder what I should wear today?"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heads up! [color=red]MC[/color] is about to make a choice!"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We don't want him to make a good one, so let's [b][wave]destroy[/wave] his [color=yellow]options[/color][/b] by [b]clicking on them![/b]"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Wardrobe Choice"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "(Don't change)",
+			"question": "I wonder what I should wear today?"
+		},
+		{
+			"choice": "Duxedo",
+			"condition": "",
+			"definition": "1688873537-918",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688904370-785",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "Tuxedo"
+		},
+		{
+			"change_timeline": "timeline-1688876377.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Hoodie",
+			"condition": "",
+			"definition": "1688873656-483",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688904370-785",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "Hoodie"
+		},
+		{
+			"change_timeline": "timeline-1688876377.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Dress Shirt",
+			"condition": "",
+			"definition": "1688873680-970",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688904370-785",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "Casual"
+		},
+		{
+			"change_timeline": "timeline-1688876377.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Go Naked",
+			"condition": "",
+			"definition": "1688873691-713",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"change_timeline": "timeline-1688875596.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688826437.json",
+		"name": "GameStart"
+	}
+}

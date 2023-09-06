@@ -1,0 +1,21 @@
+{
+	"color": "#ffc1b82d",
+	"description": "The one who needs your help",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1688827302.json",
+	"mirror_portraits": false,
+	"name": "Dialogue Box",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

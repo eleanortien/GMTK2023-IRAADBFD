@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/glass-of-wine-143532.mp3-7be78d5db8962fef89580ef0993571ef.mp3str"
+
+[deps]
+
+source_file="res://music/glass-of-wine-143532.mp3"
+dest_files=[ "res://.import/glass-of-wine-143532.mp3-7be78d5db8962fef89580ef0993571ef.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

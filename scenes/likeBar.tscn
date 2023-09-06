@@ -1,0 +1,90 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/likeBar.gd" type="Script" id=2]
+[ext_resource path="res://likebar.tres" type="Theme" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.956863, 0.576471, 0.854902, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0.8, 0.8, 0.8, 0 )
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0.996078, 0.988235, 0.988235, 1 )
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="GDScript" id=3]
+script/source = "extends ProgressBar
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+onready var bar = $Likeness
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# update label which has a number
+# or potentially have erkhes make a thing for me but thats a lot of work on my end
+func oppinion(var num):
+	if (checkMurder() and $Likeness.value <=0):
+		$Likeness.value += num
+	elif ($Likeness.value==0 and not !checkMurder()):
+		$Likeness.value = $Likeness.value
+	else:
+		$Likeness.value += num
+
+	
+func checkMurder():
+	#looks at the choice made and if its murder returns true
+	#if its not it checks murder count value and if its over 0 returns true
+	#else return false
+	pass
+	
+func returnValue():
+	return $Likeness.value
+"
+
+[node name="main" type="Node2D"]
+position = Vector2( -91, -10 )
+script = ExtResource( 2 )
+
+[node name="Likeness" type="ProgressBar" parent="."]
+margin_left = 12.0
+margin_top = 19.0
+margin_right = 279.0
+margin_bottom = 65.0
+theme = ExtResource( 3 )
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
+step = 1.0
+value = 50.0
+allow_lesser = true
+percent_visible = false
+script = SubResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -27.0
+margin_top = 33.0
+margin_right = 309.0
+margin_bottom = 63.0
+text = "0"
+align = 1
+valign = 1

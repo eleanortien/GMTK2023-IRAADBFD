@@ -1,0 +1,47 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Default"
+		},
+		{
+			"condition": "",
+			"definition": "1688833155-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688873646.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[br][br]Oh that's right! You have a [color=yellow]human[/color] farm right?"
+		},
+		{
+			"condition": "",
+			"definition": "1688833155-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688848575.json",
+		"name": "Farm"
+	}
+}

@@ -1,0 +1,1 @@
+hey so for the start scene you dont need the test scene it was just so I could see if it works if you delete it should still work I hope and just change the path to which the scene will change

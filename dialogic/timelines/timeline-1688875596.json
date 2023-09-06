@@ -1,0 +1,181 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "GameNaked"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "Naked",
+			"text": "[wave]Perfect.[/wave] Mikayla will love this. [b]:)[/b]"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "For some grand reason, both you and the [color=red]MC[/color] decided dressing naked was the perfect way to greet your date."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We wanted to ruin his date. [b]Not[/b] get [color=red]MC[/color] [wave]arrested[/wave] for nudity."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But eh. It is what it is."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://music/glass-of-wine-143532.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/Front_Door.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Naked",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sfx/doorbell-shortened-100308.mp3",
+			"volume": -0.09
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shes finally here!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey [color=red]MC[/color]! What's-"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": " [shake rate=10 level=10][color=red]AHHHHHHHHHHHHHHHHHHHHH![/color][/shake]"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_scene": "res://scenes/GameOver.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688875596.json",
+		"name": "GameNaked"
+	}
+}

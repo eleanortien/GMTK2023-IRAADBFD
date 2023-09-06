@@ -1,0 +1,2158 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1688876509",
+			"index": 0,
+			"name": "GameMiddle"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"port_defn": "1688904370-785",
+			"portrait": "[Definition]",
+			"text": "Perfect, I'm dressed for the occasion!"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Mik arrives"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sfx/doorbell-shortened-100308.mp3",
+			"volume": -0.09
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shes finally here!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/Front_Door.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Hi MC! It's so lovely to see you again!"
+		},
+		{
+			"condition": "",
+			"definition": "1688904370-785",
+			"event_id": "dialogic_012",
+			"value": "Casual"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"30",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "love",
+			"text": "Wow and I love your outfit!"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "30"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1688904370-785",
+			"event_id": "dialogic_012",
+			"value": "Tuxedo"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"10",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": "And wow! Your outfit!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "[code][i]It's great and all, but did you really have to dress that much for a flippin' dinner date at your house?[/i][/code]"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1688904370-785",
+			"event_id": "dialogic_012",
+			"value": "Hoodie"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-10",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "And that's a nice sweater!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "[code][i]Though it's our [b]date[/b]. Couldn't you have tried a [shake]little[/shake] harder?[/i][/code]"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"DateName"
+				],
+				"method_name": "incoming",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "mikayla name"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Cutie Patootie",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"30",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "30"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello [color=blue]Cutie Patootie[/color]! I'm so excited to see you!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Aww, thank you! I'm really looking forward to today!"
+		},
+		{
+			"choice": "Duck Face",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-20",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello [color=blue]Duck Face[/color]! I'm so excited to see you!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "Y'know you're a duck as well, right?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]skull emoji[/b]"
+		},
+		{
+			"choice": "Roro",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-10",
+					"true"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"definition": "1688827099-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello [color=blue]Roro[/color]! I'm so excited to see you!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "Uhm... Who's Roro?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh no! Uhh.. don't worry about it. I just had you mixed up with someone else haha!"
+		},
+		{
+			"choice": "Bum",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-5",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "5"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello [color=blue]Bum[/color]! I'm so excited to see you!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "Uhm... Who's Bum?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whar?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anyways, I was thinking of cooking something [wave]devious[/wave] for brunch today. Is there anything that you'd like to eat? "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Surprise me! "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'm good with anything, as long as it doesnt have bread in it."
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Great! I have some ideas in mind for you to enjoy!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/bg/Kitchen_Day.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Hmmm, what should I cook?"
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"FOOD"
+				],
+				"method_name": "incoming",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Cooking"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Bread",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]I know! I'll make a [color=blue]bread[/color] sandwich![/i]"
+		},
+		{
+			"definition": "1688852193-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "bread"
+		},
+		{
+			"choice": "Peking Duck",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]I know! I'll make a [color=blue]Peking Duck[/color] sandwich![/i]"
+		},
+		{
+			"definition": "1688852193-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "duck"
+		},
+		{
+			"choice": "Nutella",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]I know! I'll make a [color=blue]Nutella[/color] sandwich![/i]"
+		},
+		{
+			"definition": "1688852193-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "nutella"
+		},
+		{
+			"choice": "~uwu owo owu ~",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]I know! I'll make a [color=blue]~uwu owo owu~[/color] sandwich![/i]"
+		},
+		{
+			"definition": "1688852193-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "nothing"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sfx/frying-steak-74556.wav",
+			"volume": 0.3
+		},
+		{
+			"background": "res://assets/bg/Sitting_Room.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dinner will be ready in a couple of minutes!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "It's nice to have someone else cook for a change. Things have been really busy on the farm lately..."
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"Farm"
+				],
+				"method_name": "incoming",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Mikayla Farm"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Monkey",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"20",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh that's right! You have a [color=blue]monkey[/color] farm right?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Close! it's actually a human farm, but I'm glad you remembered!"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course! If it's about you, I could never forget!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "love",
+			"text": "Aww, you're such a flirt! Stop!"
+		},
+		{
+			"choice": "Vegetable",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-10",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh that's right! You have a [color=blue]vegetable farm[/color] right?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "No, it's actually a human farm. Im kinda sad you didn't remember..."
+		},
+		{
+			"choice": "Duck",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-20",
+					"true"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh that's right! You have a [color=blue]duck[/color] farm right?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "[shake]What the duck do you think I have a duck farm for??[/shake]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "I told you already, I have a human farm! Do you think I'm some sort of trafficker?!"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "....."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "Hey! Don't go silent on me!"
+		},
+		{
+			"choice": "Floccinaucinhillipilification",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh that's right! You have a [color=blue]Floccinaucinhilliphilication[/color] farm right?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "A [i]what[/i] farm? "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "It's ok if you didn't remember, you can admit it.... "
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, you got me. I'm sorry."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So what's your favourite thing about running a human farm?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "To be honest, it's the humans, they are such simple creatures. We should learn to relax and enjoy the moment like they do.."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Just being around them allows me to escape reality just for a little bit."
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's wonderful, I'll have to visit you there someday."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "That's a great idea! I'll gladly welcome you anytime! "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "How about you? How's your job going?"
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"job"
+				],
+				"method_name": "incoming",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Friends",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"20",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh it's going well! I've started to make a lot more  [color=blue]friends[/color] lately."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Aw, I love that for you!"
+		},
+		{
+			"choice": "NFDs (Non Fungible Ducks)",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-10",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh it's going well! I've started to make a lot more  [color=blue]NFDs[/color] lately."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": "Umm, ok."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'm not the... biggest fan of NFDs."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But, good for you I guess."
+		},
+		{
+			"choice": "Feather down pillows",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-15",
+					"true"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh it's going well! I've started to make a lot more  [color=blue]feather down pillows[/color] lately."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": "Umm, ok.[speed=20].................................................."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "So, you're putting, our feathers. Into pillows. For others to sleep with."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "Good for you I guess."
+		},
+		{
+			"choice": "Say hello to my lil fren",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh it's going well! I've started to make a lot more  [color=blue]Say hello to my lil fren[/color] lately."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "[wave]????????[/wave]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good for you I guess?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you! I always try my best at work!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "Oh yeah! You mentioned you also recently started working in a publishing company."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "love",
+			"text": "Writing is such a cool job!  What kind of things do you like to write about?"
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"job"
+				],
+				"method_name": "incoming",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Fantasy",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"30",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "30"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I like to write  [color=blue]fantasy[/color]. It's fun to create novels for such an audience."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Wow! I love reading fantasy novels! \nWhat works have you published?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I've only published one so far, you probably haven't heard of it. It's called Duck My Life."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "love",
+			"text": "OMG!! You wrote that?! "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "Sure, it's not the most well known, but I couldn't put it down when I found it!"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks. If you have any feedback I'd love to hear it."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Really? Stop me if I ramble too much then, alright?"
+		},
+		{
+			"choice": "Spicy adult romance novels",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-10",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I like to write  [color=blue]spicy adult romance novels[/color]. It's fun to create novels for such an audience."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Wow ..... that's very .... niche"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, are you not a fan?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": "Nonono, it's fine! To each their own."
+		},
+		{
+			"choice": "Roro x Reader Fanfiction",
+			"condition": ">=",
+			"definition": "1688827099-648",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-20",
+					"true"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688827099-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I like to write  [color=blue]Roro x Reader Fanfiction[/color]. It's fun to create novels for such an audience."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": "WHAT THERES A FANBASE FOR THAT?!?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yea! do you want a box set?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "No thanks please."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "[i][code][shake]What's wrong with this quack? Why do they have a box set?[/shake][/code][/i]"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No I insist! Specially for you!"
+		},
+		{
+			"choice": "҉ ~~baby girl~~҉ 　",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1688833155-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I like to write  [color=blue]✼҉ ~~baby girl~~҉ [/color]. It's fun to create novels for such an audience."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "[speed=5]Wow..... that's very ....[i] niche[/i]?"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "[i][code]Is that even a kind of book?[/code][/i]"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Time seems to drag on as the two enrich themselves in a quackerful conversation.*"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Within this time, [color=red]MC[/color] and Mikayla took a walk around the garden before returning to the sitting room.* "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh I love the flowers in your garden. The colours are so bright. The roses are my favourite!"
+		},
+		{
+			"background": "res://assets/bg/Sitting_Room.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"port_defn": "1688904370-785",
+			"portrait": "[Definition]",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://music/glass-of-wine-143532.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heads up! [color=red]MC[/color] is about to make another [b][color=yellow][wave]choice[/wave][/color][/b]!"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "flowerChoice"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "\nSpeaking of roses...!  "
+		},
+		{
+			"choice": "*give roses*",
+			"condition": "",
+			"definition": "1688873537-918",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"20",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I got you a gift!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "love",
+			"text": "Aw, thanks for the thought. I love it!"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anything for you!"
+		},
+		{
+			"change_timeline": "timeline-1688901553.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "*give free coupons for roses*",
+			"condition": "",
+			"definition": "1688873656-483",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-10",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "10"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here's a coupon for free roses! "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=0]Aw-"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You'll have to go get it though."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]bruh[/i]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's not quite what I had in mind for a gift ...... but thanks for the thought."
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anytime!"
+		},
+		{
+			"change_timeline": "timeline-1688901553.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "*give weeds*",
+			"condition": "",
+			"definition": "1688873680-970",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-20",
+					"false"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "Weeds?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah! They're delicious!"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "That's not quite what I had in mind for a gift ...... but thanks for the thought."
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No problem!"
+		},
+		{
+			"change_timeline": "timeline-1688901553.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "*give coupon for a free gift from her*",
+			"condition": "",
+			"definition": "1688873691-713",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"condition": "",
+			"definition": "1688873707-339",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873537-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873656-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1688873680-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"call_node": {
+				"arguments": [
+					"-20",
+					"true"
+				],
+				"method_name": "change_favourability",
+				"target_node_path": "main"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"definition": "1688864153-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, do you remember how you gave me that \"Free Favour\" coupon because you had to take a rain check for our date last week? "
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "confused",
+			"text": "Yeah, are you cashing that in?"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah. I want roses. Go buy me some."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "surprised",
+			"text": "[speed=5][shake]Now? Why?[/shake]"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes. [b]No questions.[/b]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "annoyed",
+			"text": "Ok then, I guess I'll go get some?"
+		},
+		{
+			"change_timeline": "timeline-1688901553.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave]Option Destroyed! [b]>:)[/b][/wave]"
+		},
+		{
+			"definition": "1688873707-339",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1688873691-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688876377.json",
+		"name": "GameMiddle"
+	}
+}

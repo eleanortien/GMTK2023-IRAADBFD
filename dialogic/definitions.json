@@ -1,0 +1,67 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1688827099-648",
+			"name": "RoroNumber",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688852193-787",
+			"name": "DishMade",
+			"type": 0,
+			"value": "Egg salad"
+		},
+		{
+			"id": "1688864153-366",
+			"name": "Favourability",
+			"type": 0,
+			"value": "50"
+		},
+		{
+			"id": "1688873656-483",
+			"name": "2ChoiceDestroyed",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688873680-970",
+			"name": "3ChoiceDestroyed",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688873691-713",
+			"name": "4ChoiceDestroyed",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688873707-339",
+			"name": "num_destroyed",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688833155-648",
+			"name": "IncomingFinished",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688873537-918",
+			"name": "1ChoiceDestroyed",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1688904370-785",
+			"name": "MCOutfit",
+			"type": 0,
+			"value": "Default"
+		}
+	]
+}

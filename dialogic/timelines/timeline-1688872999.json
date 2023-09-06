@@ -1,0 +1,159 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "SecretEnd"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "....."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*Sometime at Night*"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "You wouldn't shut about [i]Roro[/i], so I [b][color=red]dealt[/color][/b] with him."
+		},
+		{
+			"background": "res://assets/Ending BGs/Roro Ending.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "[shake]I CAN'T BELIEVE YOU WOULD DATE A HUMAN ON [u]MY[/u] FARM!!"
+		},
+		{
+			"character": "character-1688826020.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? I don't even know a Roro..."
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "[shake]ENOUGH WITH YOUR LIES.[/shake]"
+		},
+		{
+			"character": "character-1688827240.json",
+			"event_id": "dialogic_001",
+			"portrait": "murder/anger",
+			"text": "[shake]NOW I'LL MAKE SURE YOU SPEND AN ETERNITY WITH RORO, JUST LIKE YOU WANTED.[/shake]"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/sfx/knife-stab-sound-effect-36354.wav",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/bg/TheVoid.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://music/glass-of-wine-143532.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, that was certainly something..."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe not the ending I wanted, but I'm finally rid of him! Thank you! [b]:)[/b]"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And congrats on finding out who the heck Roro was!"
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We did just kinda make someone up, so I feel bad for that [speed=5][i]poor, innocent[/i] human."
+		},
+		{
+			"character": "character-1688827302.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But [wave]oh well![/wave]"
+		},
+		{
+			"background": "res://assets/Gama JUma/ending 4.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"change_scene": "res://scenes/Start.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1688872999.json",
+		"name": "SecretEnd"
+	}
+}

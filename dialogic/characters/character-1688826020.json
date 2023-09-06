@@ -1,0 +1,37 @@
+{
+	"color": "#ffb23434",
+	"description": "We shall ruin this guy's life",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1688826020.json",
+	"mirror_portraits": false,
+	"name": "MC",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/Gama JUma/mc base.png"
+		},
+		{
+			"name": "Tuxedo",
+			"path": "res://assets/Gama JUma/mc super fancy.png"
+		},
+		{
+			"name": "Hoodie",
+			"path": "res://assets/Gama JUma/mc hoodie.png"
+		},
+		{
+			"name": "Casual",
+			"path": "res://assets/Gama JUma/mc casual.png"
+		},
+		{
+			"name": "Naked",
+			"path": "res://assets/Gama JUma/mc censored.png"
+		}
+	],
+	"scale": 60,
+	"theme": ""
+}

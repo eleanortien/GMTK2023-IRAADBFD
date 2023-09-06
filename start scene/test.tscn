@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="test" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 424.0
+margin_top = 237.0
+margin_right = 493.0
+margin_bottom = 263.0
+text = "test"

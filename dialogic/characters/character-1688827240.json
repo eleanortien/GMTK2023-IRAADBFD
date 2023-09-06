@@ -1,0 +1,49 @@
+{
+	"color": "#ffcc94d5",
+	"description": "The MC's somewhat questionable love interest",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1688827240.json",
+	"mirror_portraits": false,
+	"name": "Mikayla",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/Gama JUma/Mikayla base.png"
+		},
+		{
+			"name": "confused",
+			"path": "res://assets/Gama JUma/Mikayla COunfused 2.png"
+		},
+		{
+			"name": "annoyed",
+			"path": "res://assets/Gama JUma/Mikayla annoyed  3.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://assets/Gama JUma/Mikayla cry.png"
+		},
+		{
+			"name": "happy",
+			"path": "res://assets/Gama JUma/Mikayla Happy 2.png"
+		},
+		{
+			"name": "love",
+			"path": "res://assets/Gama JUma/Mikayla love.png"
+		},
+		{
+			"name": "murder/anger",
+			"path": "res://assets/Gama JUma/Mikayla Murder 2.png"
+		},
+		{
+			"name": "surprised",
+			"path": "res://assets/Gama JUma/Mikayla surprised.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}
