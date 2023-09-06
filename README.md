@@ -16,7 +16,7 @@ Assets and Cutscenes - Lily, Erkhes
 
 ## Outside Asset Credits <br>
 
-<b> Duck Outline: [Freepik Vector](https://www.freepik.com/premium-vector/bath-rubber-duck-hand-drawn-element-doodle-sketch-style_31928294.htm#query=duck%20outline&position=5&from_view=keyword&track=ais) 
+Duck Outline: [Freepik Vector](https://www.freepik.com/premium-vector/bath-rubber-duck-hand-drawn-element-doodle-sketch-style_31928294.htm#query=duck%20outline&position=5&from_view=keyword&track=ais) 
 
 Farm background: [Freepik Vector](https://www.freepik.com/free-vector/farm-summer-nature-rural-background-with-barn_5901221.htm#query=farm%20sunset&position=32&from_view=keyword&track=ais)
 
